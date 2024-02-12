@@ -1,0 +1,18 @@
+:host {
+  --font-size: 36px;
+  --text-color: #000000;
+  --background-color: #f0f0f0;
+  --shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
+}
+.container {
+  width: 100dvw;
+  height: 100dvh;
+  display: grid;
+  place-items: center;
+  background-color: var(--background-color);
+  p {
+    font-size: var(--font-size);
+    color: var(--text-color);
+    text-shadow: var(--shadow);
+  }
+}
