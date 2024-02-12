@@ -19,16 +19,12 @@
   }
 }
 @media (min-width: 600px) {
-  .container {
-    p {
-      font-size: var(--font-size-md);
-    }
+  p {
+    font-size: var(--font-size-md);
   }
 }
 @media (min-width: 950px) {
-  .container {
-    p {
-      font-size: var(--font-size-lg);
-    }
+  p {
+    font-size: var(--font-size-lg);
   }
 }
