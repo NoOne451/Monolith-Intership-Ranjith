@@ -1,5 +1,7 @@
 :host {
-  --font-size: 36px;
+  --font-size-sm: 36px;
+  --font-size-md: 48px;
+  --font-size-lg: 64px;
   --text-color: #000000;
   --background-color: #f0f0f0;
   --shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
@@ -11,8 +13,22 @@
   place-items: center;
   background-color: var(--background-color);
   p {
-    font-size: var(--font-size);
+    font-size: var(--font-size-sm);
     color: var(--text-color);
     text-shadow: var(--shadow);
+  }
+}
+@media (min-width: 600px) {
+  .container {
+    p {
+      font-size: var(--font-size-md);
+    }
+  }
+}
+@media (min-width: 950px) {
+  .container {
+    p {
+      font-size: var(--font-size-lg);
+    }
   }
 }
