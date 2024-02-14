@@ -53,6 +53,7 @@
     display: flex;
     width: 20%;
     align-items: center;
+    justify-content: center;
     gap: 8px;
     img {
       display: none;
@@ -60,6 +61,7 @@
       height: 15px;
     }
     span {
+      width: 100%;
       font-family: "futura book";
       color: var(--red);
       font-size: 14px;
@@ -90,6 +92,9 @@
     .status {
       img {
         display: block;
+      }
+      span {
+        width: 60%;
       }
     }
   }
