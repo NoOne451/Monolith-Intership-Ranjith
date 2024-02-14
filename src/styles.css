@@ -1,9 +1,4 @@
 @font-face {
-  font-family: "futura bold";
-  src: url("./assets/fonts/FuturaPTBold.otf") format("opentype");
-  font-weight: bold;
-}
-@font-face {
   font-family: "futura lighter";
   src: url("./assets/fonts/FuturaPTLight.otf") format("opentype");
   font-weight: lighter;
@@ -12,21 +7,12 @@
   font-family: "futura book";
   src: url("./assets/fonts/FuturaPTBook.otf") format("opentype");
 }
-@font-face {
-  font-family: "futura demi";
-  src: url("./assets/fonts/FuturaPTDemi.otf") format("opentype");
-}
+
 @font-face {
   font-family: "futura medium";
   src: url("./assets/fonts/FuturaPTMedium.otf") format("opentype");
   font-weight: medium;
 }
-@font-face {
-  font-family: "futura extrabold";
-  src: url("./assets/fonts/FuturaPTExtraBold.otf") format("opentype");
-  font-weight: extraBold;
-}
-
 :root {
   --primary: #212254;
   --secoundary: #6a749b;
